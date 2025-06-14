@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pomodoro Clock</h1>
+      <p class="description">
+        The Pomodoro Technique involves working for 25 minutes and taking 5
+        minute breaks. Every 4 intervals, a long break, typically 15 minutes, is
+        taken. Enter tasks below!
+      </p>
+
+      <div class="input-group">
+        <input type="text" id="taskInput" placeholder="Enter a task..." />
+        <button id="addTask">Enter!</button>
+      </div>
+
+      <ul id="taskList"></ul>
+
+      <button id="removeCompleted" class="remove-btn">Remove Completed</button>
+
+      <!-- dropdown-section -->
+      <div class="dropdown-section">
+        <p>Choose in the time period you want the timer set.</p>
+        <select id="timerSelect">
+          <option value="">Choose...</option>
+          <option value="25">25 min (Work)</option>
+          <option value="5">5 min (Short Break)</option>
+          <option value="15">15 min (Long Break)</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

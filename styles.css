@@ -1,0 +1,86 @@
+body {
+  font-family: "Georgia", serif;
+  background-color: #c0c0c0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  background-color: #e9e9e9;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #555;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 1rem;
+  font-family: "Georgia", serif;
+  border: 2px solid #555;
+  border-radius: 5px;
+  background-color: #d0d0d0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0c0c0;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#taskList li {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #aaa;
+}
+
+.remove-btn {
+  margin-bottom: 20px;
+}
+
+.dropdown-section p {
+  margin: 10px 0 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid #555;
+}
